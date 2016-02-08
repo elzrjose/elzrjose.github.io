@@ -23,7 +23,36 @@
   </header>
   <!-- Start Rotator -->
   <div id="Rotator" class="rotator">
-
+    <a class="prev" href="#"></a>
+    <div class="rotatorWrapper">
+      <ul>
+        <li class="slide0">
+          <div>
+              Slide 1
+              ADD LOVELY CAPTIONS TO
+              EACH SLIDE AND MAKE YOUR
+              BUSINESS STAND OUT
+          </div>
+        </li>
+        <li class="slide1">
+          <div>
+              Slide 2
+              ADD LOVELY CAPTIONS TO
+              EACH SLIDE AND MAKE YOUR
+              BUSINESS STAND OUT
+          </div>
+        </li>
+        <li class="slide2">
+          <div>
+              Slide 3
+              ADD LOVELY CAPTIONS TO
+              EACH SLIDE AND MAKE YOUR
+              BUSINESS STAND OUT
+          </div>
+        </li>
+      </ul>
+    </div>
+    <a class="next" href="#"></a>
   </div>
   <div class="content">
     <h2>WELCOME TO <span>ELEGANTICA</span> - A MINIMAL BUSINESS THEME</h2>
@@ -54,7 +83,7 @@
         <li>
           <div class="disc-outer">
             <div class="disc-inner">
-              <div class="icon web">
+              <div class="icon webicon">
 
               </div>
             </div>
@@ -65,7 +94,7 @@
         <li>
           <div class="disc-outer">
             <div class="disc-inner">
-              <div class="icon mobile">
+              <div class="icon mobiledev">
 
               </div>
             </div>
@@ -80,7 +109,7 @@
       <h4>Recent from <span>Portfolio</span></h4>
     </div>
     <div class="portfolio-item">
-      <img src="" alt="" />
+      <img src="images/port1.jpg" />
       <h5>Business Cards</h5>
       <a href="#">Video</a>
       <a href="#">Interview</a>
@@ -92,7 +121,7 @@
       </p>
     </div>
     <div class="portfolio-item">
-      <img src="" alt="" />
+      <img src="images/port2.jpg" />
       <h5>Moo Minicards</h5>
       <a href="#">Video</a>
       <a href="#">Interview</a>
@@ -104,7 +133,7 @@
       </p>
     </div>
     <div class="portfolio-item">
-      <img src="" alt="" />
+      <img src="images/port3.jpg" />
       <h5>Say It In print</h5>
       <a href="#">Video</a>
       <a href="#">Interview</a>
@@ -116,7 +145,7 @@
       </p>
     </div>
     <div class="portfolio-item">
-      <img src="" alt="" />
+      <img src="images/port4.jpg" />
       <h5>Graphics In Print</h5>
       <a href="#">Video</a>
       <a href="#">Interview</a>
@@ -193,9 +222,18 @@
         <a href="">contact</a>
       </div>
       <div class="copy">
-        @2013 All Rights Reserved
+        @2016 All Rights Reserved
       </div>
     </div>
   </footer>
+
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="jquery.rotator.js"></script>
+  <script>
+    $(function () {
+      $('#Rotator').Rotator();
+    });
+  </script>
+
 </body>
 </html>

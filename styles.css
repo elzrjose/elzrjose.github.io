@@ -1,0 +1,416 @@
+/*========== CSS RESET START ==========*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,
+a, img, ul, li, footer, header, nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/*HTML5 display-role reset for older browsers*/
+footer, header, nav {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ul {
+  list-style: none;
+}
+/*========== CSS RESET END ==========*/
+
+/*========== MY CSS START ==========*/
+
+/*
+green: #9fc63f
+*/
+
+body {
+  background: #f5f5f5;
+  font: 13px/1.1em Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+
+h2 span, h3 span, h4 span {
+  color: #9fc63f;
+}
+
+/*========== Header ==========*/
+
+header {
+  overflow: hidden;
+  padding: 25px 0;
+}
+
+header > div {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 960px;
+}
+
+header h1 {
+  background-image: url(images/logo.png);
+  height: 60px;
+  float: left;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 274px;
+}
+
+header nav {
+  float: right;
+}
+
+.main-menu li {
+  float: left;
+  padding-top: 30px;
+  text-align: right;
+  width: 125px;
+}
+
+.main-menu a {
+  color: #000;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-menu a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  margin: 0 auto 140px auto;
+  overflow: hidden;
+  width: 960px;
+}
+
+.footer {
+  background: #fff;
+  border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  clear: both;
+  overflow: hidden;
+}
+
+.footer .footer-content {
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 40px 0 20px 0;
+  width: 960px;
+}
+
+.footer .footer-content > div {
+  float: left;
+  margin-right: 40px;
+  width: 200px;
+}
+
+.footer h5 {
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.footer p {
+  margin-bottom: 25px;
+}
+
+.social-links {
+
+}
+
+.social-links li {
+  display: inline-block;
+}
+
+.social-links a {
+  background-position: center center;
+  background-repeat: no-repeat;;
+  display: block;
+  height: 25px;
+  width: 25px;
+}
+
+.social-links .facebook {
+  background-image: url(images/facebook.png);
+}
+
+.social-links .twitter {
+  background-image: url(images/twitter.png);
+}
+
+.social-links .rss {
+  background-image: url(images/rss.png);
+}
+
+.social-links .vimeo {
+  background-image: url(images/vimeo.png);
+}
+
+.social-links .dribble {
+  background-image: url(images/dribble.png);
+}
+
+.social-links .msn {
+  background-image: url(images/msn.png);
+}
+
+.base-footer {
+  background: #202020;
+  padding: 10px 0;
+
+}
+
+.base-footer .bf-content {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 960px;
+}
+
+.base-footer .footer-nav {
+  float: left;
+}
+
+.base-footer .footer-nav a {
+  color: #fff;
+  padding: 0 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.base-footer .copy {
+  color: #fff;
+  float: right;
+}
+/*========== MY CSS END ==========*/
+
+/*========== MY CSS 2 START ==========*/
+
+#Rotator {
+  background: #9fc63f;
+  clear: both;
+  height: 415px;
+  position: relative;
+}
+
+.rotator {
+
+}
+
+.rotator .prev {
+  background-image: url(images/backward.png);
+  display: block;
+  height: 60px;
+  left: 50px;
+  margin-top: -30px;
+  position: absolute;
+  top: 50%;
+  width: 60px;
+}
+
+.rotator .next {
+  background-image: url(images/forward.png);
+  display: block;
+  height: 60px;
+  right: 50px;
+  margin-top: -30px;
+  position: absolute;
+  top: 50%;
+  width: 60px;
+}
+
+.rotator .rotatorWrapper {
+  height: 420px;
+  margin: 0 auto;
+  position: relative;
+  width: 960px;
+  overflow: hidden;
+
+}
+
+.rotator ul {
+  position: absolute;
+  top: 0;
+  width: 2000em;
+}
+
+.rotator li {
+  float: left;
+  height: 420px;
+  width: 960px;
+  position: relative;
+}
+
+.slide0, .slide1, .slide2 {
+  background: url(images/slide.png) left center no-repeat;
+}
+
+.slide0 div, .slide1 div, .slide2 div {
+  color: #fff;
+  font-size: 25px;
+  line-height: 1.5;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 75px;
+  width: 400px;
+}
+
+.content h2 {
+  background: url(images/bg_dash.png) bottom right repeat-x;
+  font-size: 28px;
+  padding: 40px;
+  text-align: center;
+}
+
+.services {
+  margin: 40px 0 50px 0;
+  overflow: hidden;
+}
+
+.services ul {
+
+}
+
+.services li {
+  float: left;
+  margin-right: 75px;
+
+}
+
+.services li:last-child {
+  margin-right: 0;
+}
+
+.services .disc-outer {
+  background: #fff;
+  width: 178px;
+  border: 1px solid #dedede;
+  border-radius: 100%;
+  margin-bottom: 18px;
+  height: 178px;
+}
+
+.services .disc-inner {
+  border-radius: 100%;
+  background: #9fc63f;
+  height: 140px;
+  margin: 19px;
+  width: 140px;
+}
+
+.services .disc-inner > .icon {
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 140px;
+  width: 140px;
+}
+
+.services .amazing {
+  background-image: url(images/amazing.png);
+}
+
+.services .hour {
+  background-image: url(images/24hour.png);
+}
+
+.services .webicon {
+  background-image: url(images/web.png);
+}
+
+.services .mobiledev {
+  background-image: url(images/mobile.png);
+}
+
+.services h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.services h5 {
+  font-size: 14px;
+  text-align: center;
+}
+
+.sub-header {
+  background: url(images/bg_dash.png) center repeat-x;
+  clear: both;
+  height: 20px;
+  margin-bottom: 35px;
+}
+
+.sub-header h4 {
+  background: #f5f5f5;
+  font-size: 20px;
+  height: 20px;
+  width: 275px;
+  padding-top: 4px;
+  margin-left: 35px;
+}
+
+.portfolio-item {
+  border: 1px solid #ebebeb;
+  float: left;
+  width: 465px;
+  margin-bottom: 25px;
+  margin-right: 26px;
+}
+
+.portfolio-item:nth-child(2n+1) {
+  margin-right: 0;
+}
+
+.portfolio-item img {
+  float: left;
+  height: 148px;
+  width: 227px;
+  margin-right: 20px;
+}
+
+.portfolio-item h5 {
+  font-size: 12px;
+  margin: 15px 0 10px 0;
+}
+
+.portfolio-item a {
+  background: #9fc63f;
+  color: #fff;
+  text-decoration: none;
+  padding: 3px 10px;
+}
+
+.portfolio-item p {
+  margin-top: 15px;
+}
+
+.advertisers {
+  clear: both;
+}
+
+.advertisers li {
+  float: left;
+  height: 131px;
+  width: 160px;
+}
+
+.advertisers img {
+  display: block;
+  width: 160px;
+  height: 131px;
+}
